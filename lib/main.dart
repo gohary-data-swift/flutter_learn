@@ -3,6 +3,7 @@ import 'package:flutter_learn/HomeVC.dart';
 import 'package:flutter_learn/LoginVC.dart';
 
 import 'MessagesVC.dart';
+import 'UserVC.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessagesVC()
+      home: UserVC()
     );
   }
 }
